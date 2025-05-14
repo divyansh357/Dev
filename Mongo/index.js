@@ -103,10 +103,14 @@ const User = mongoose.model("User",userSchema);
 //     console.log(err);
 // });
 
-User.findByIdAndUpdate({_id: "6823ebf993caec6c22ee9284"},{age:48},{new: true})
-.then((res)=>{
-    console.log(res);
-})
-.catch((err)=>{
-    console.log(err);
-})
+// User.findByIdAndUpdate({_id: "6823ebf993caec6c22ee9284"},{age:48},{new: true})
+// .then((res)=>{
+//     console.log(res);
+// })
+// .catch((err)=>{
+//     console.log(err);
+// });
+
+// Delete
+
+
